@@ -107,7 +107,7 @@ This approach was chosen for speed and robustness given the hackathon time const
 
 Both **Accuracy** and **Macro F1 Score** were tracked. Macro F1 was given particular attention because the target classes are imbalanced (~60% Low, ~25% Medium, ~15% High), and Macro F1 weights all three classes equally, giving a fairer picture of minority-class (Medium/High risk) performance than raw accuracy alone.
 
-See `reports/confusion_matrix.png` and `reports/feature_importance.png` for visualizations.
+See `confusion_matrix.png` and `feature_importance.png` for visualizations.
 
 
 
