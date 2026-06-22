@@ -4,7 +4,7 @@
 
 **Project Name:** RetinaAI - Student Dropout Risk Prediction
 
-**One-Liner:** A multimodal machine learning system that predicts student dropout risk by combining academic records, attendance time-series behavior, and counsellor notes.
+A multimodal machine learning system that predicts student dropout risk by combining academic records, attendance time-series behavior, and counsellor notes.
 
 ### Problem Statement
 
