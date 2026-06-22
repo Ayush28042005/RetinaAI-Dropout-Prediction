@@ -2,7 +2,7 @@
 
 ## 1. Project Overview
 
-**Project Name:** RetinaAI – Student Dropout Risk Prediction
+**Project Name:** RetinaAI - Student Dropout Risk Prediction
 
 **One-Liner:** A multimodal machine learning system that predicts student dropout risk by combining academic records, attendance time-series behavior, and counsellor notes.
 
@@ -18,7 +18,7 @@ This project combines three data modalities into a single pipeline that classifi
 
 This enables faculty and counsellors to identify and support at-risk students earlier.
 
----
+
 
 ## 2. Technical Architecture
 
@@ -43,7 +43,7 @@ Python
 ### Database
 Competition dataset provided by organizers (tabular academic data, attendance time-series, counsellor notes)
 
----
+
 
 ## 3. Project Pipeline
 
@@ -62,7 +62,6 @@ Competition dataset provided by organizers (tabular academic data, attendance ti
 #### Counsellor Notes (Text)
 - Short unstructured counselling observations per student
 
----
 
 ### Step 2: Feature Engineering
 
@@ -86,7 +85,6 @@ Competition dataset provided by organizers (tabular academic data, attendance ti
 - Label-encoded note category (10 unique recurring note phrases)
 - Binary keyword flags: stress, dropout mention, demotivated, backlog, struggling, financial, tutoring, positive, no action needed, monitor
 
----
 
 ### Step 3: Model Training
 
@@ -94,7 +92,7 @@ A single **LightGBM multiclass classifier** was trained using **Stratified 5-Fol
 
 This approach was chosen for speed and robustness given the hackathon time constraint, prioritizing a clean, reproducible, single-model pipeline over a heavier multi-model ensemble.
 
----
+
 
 ## 4. Model Performance
 
@@ -111,7 +109,7 @@ Both **Accuracy** and **Macro F1 Score** were tracked. Macro F1 was given partic
 
 See `reports/confusion_matrix.png` and `reports/feature_importance.png` for visualizations.
 
----
+
 
 ## 5. Key Insights
 
@@ -125,7 +123,7 @@ Feature importance analysis showed the strongest predictors of dropout risk were
 
 Combining attendance trend (not just raw averages) and counsellor-note keyword signals meaningfully improved separation between Medium and High risk classes versus academic features alone.
 
----
+
 
 ## 6. Challenges Faced
 
@@ -134,7 +132,7 @@ Combining attendance trend (not just raw averages) and counsellor-note keyword s
 - Balancing performance across all three risk categories given class imbalance.
 - Working within a strict one-hour submission deadline.
 
----
+
 
 ## 7. What We Learned
 
@@ -143,7 +141,7 @@ Combining attendance trend (not just raw averages) and counsellor-note keyword s
 - Why Macro F1 is a more meaningful metric than accuracy under class imbalance.
 - The value of Stratified K-Fold Cross-Validation for reliable, leakage-free evaluation on imbalanced multi-class problems.
 
----
+
 
 ## 8. Future Scope
 
@@ -154,7 +152,7 @@ Combining attendance trend (not just raw averages) and counsellor-note keyword s
 - Real-time dashboard for faculty/counsellor use
 - Integration with institutional LMS systems
 
----
+
 
 ## 9. Proof of Zero-Cost Usage
 
@@ -166,7 +164,7 @@ Combining attendance trend (not just raw averages) and counsellor-note keyword s
 ### Scalability Approach
 The pipeline is lightweight and model-agnostic; it can be containerized and deployed as a scheduled batch job or on-demand API for institutional student data.
 
----
+
 
 ## 10. Important Links
 
@@ -179,7 +177,7 @@ https://github.com/Ayush28042005/RetinaAI-Dropout-Prediction
 ### Competition Submission
 `submissions/submission_v1.csv`
 
----
+
 
 ## Repository Structure
 
@@ -198,7 +196,6 @@ RetinaAI-Dropout-Prediction/
 └── README.md
 ```
 
----
 
 ## Author
 
