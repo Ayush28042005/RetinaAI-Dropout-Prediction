@@ -175,7 +175,7 @@ https://github.com/Ayush28042005/RetinaAI-Dropout-Prediction
 [RETINA AI: Predict Student Dropout Risk with Deep Learning](https://www.kaggle.com/competitions/retina-ai-predict-student-dropout-risk-with-deep-learning)
 
 ### Competition Submission
-`submissions/submission_v1.csv`
+`submission_v1.csv`
 
 
 
@@ -200,4 +200,3 @@ RetinaAI-Dropout-Prediction/
 ## Author
 
 Ayush Saini
-B.Tech, Computer Science & Engineering (AI & ML)
