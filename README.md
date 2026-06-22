@@ -127,7 +127,7 @@ Combining attendance trend (not just raw averages) and counsellor-note keyword s
 
 ## 6. Challenges Faced
 
-- Efficiently computing per-student attendance trend (slope) across ~15,000 students without slow row-by-row `.apply()` calls — solved using a vectorized closed-form linear regression.
+- Efficiently computing per-student attendance trend (slope) across ~15,000 students without slow row-by-row `.apply()` calls - solved using a vectorized closed-form linear regression.
 - Handling a small, repetitive set of counsellor note phrases without overfitting to exact text.
 - Balancing performance across all three risk categories given class imbalance.
 - Working within a strict one-hour submission deadline.
