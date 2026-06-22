@@ -134,7 +134,7 @@ Combining attendance trend (not just raw averages) and counsellor-note keyword s
 
 
 
-## 7. What We Learned
+## 7. What I Learned
 
 - Practical experience in multimodal feature engineering (tabular + time-series + text).
 - The importance of vectorized operations over `.apply()` for performance at scale.
