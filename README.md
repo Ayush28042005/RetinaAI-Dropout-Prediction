@@ -1,4 +1,4 @@
-# 🎓 RetinaAI – Student Dropout Risk Prediction
+# RetinaAI – Student Dropout Risk Prediction
 
 ## 1. Project Overview
 
