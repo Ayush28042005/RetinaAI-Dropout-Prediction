@@ -182,18 +182,10 @@ https://github.com/Ayush28042005/RetinaAI-Dropout-Prediction
 ## Repository Structure
 
 ```
-RetinaAI-Dropout-Prediction/
-├── data/
-│   └── raw/                 # place train.csv, test.csv, Attendance_series.csv,
-│                             # Counsellor_notes.csv, sample_submission.csv here
-├── notebooks/                # exported Kaggle notebook (.ipynb)
-├── reports/                  # workflow diagram, architecture diagram,
-│                             # confusion matrix, feature importance plots
-├── src/
-│   └── train_model.py        # full training + diagram-generation script
-├── submissions/
-│   └── submission_v1.csv     # final competition submission
-└── README.md
+`train_model.py` : full training pipeline with feature engineering and diagrams
+`submission_v1.csv` : final competition predictions
+`Student_Dropout_Prediction_Presentation.pptx` : project presentation
+`.png` : workflow, architecture, confusion matrix and feature importance diagrams
 ```
 
 
