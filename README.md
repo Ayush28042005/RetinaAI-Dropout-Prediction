@@ -4,11 +4,11 @@
 
 **Project Name:** RetinaAI - Student Dropout Risk Prediction
 
-A multimodal machine learning system that predicts student dropout risk by combining academic records, attendance time-series behavior, and counsellor notes.
+A multimodal machine learning system that predicts student dropout risk by combining academic records, attendance time-series behavior and counsellor notes.
 
 ### Problem Statement
 
-Student dropout is a major challenge for educational institutions. Early indicators — declining grades, irregular attendance, and concerning counsellor remarks — are often scattered across separate systems, which delays intervention.
+Student dropout is a major challenge for educational institutions. Early indicators - declining grades, irregular attendance, and concerning counsellor remarks - are often scattered across separate systems, which delays intervention.
 
 This project combines three data modalities into a single pipeline that classifies each student into:
 
@@ -67,7 +67,7 @@ Competition dataset provided by organizers (tabular academic data, attendance ti
 
 #### Academic Features
 - CGPA mean, standard deviation
-- CGPA trend (semester 4 − semester 1)
+- CGPA trend (semester 4 - semester 1)
 - CGPA minimum
 
 #### Backlog Features
